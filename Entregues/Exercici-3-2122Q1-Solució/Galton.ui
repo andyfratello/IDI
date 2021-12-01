@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Galton</class>
+ <widget class="QWidget" name="Galton">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>709</width>
+    <height>476</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Galton</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_4">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <spacer name="horizontalSpacer_9">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLabel" name="label">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_10">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <spacer name="horizontalSpacer_11">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLabel" name="label_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLabel" name="label_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_12">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <spacer name="horizontalSpacer_7">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLabel" name="label_4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLabel" name="label_5">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_6">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLabel" name="label_6">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_8">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <spacer name="horizontalSpacer_17">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLabel" name="label_7">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLabel" name="label_8">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLabel" name="label_9">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLabel" name="label_10">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_18">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="MyLCDNumber" name="lcdNumber">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_13">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLCDNumber" name="lcdNumber_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_14">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLCDNumber" name="lcdNumber_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_15">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLCDNumber" name="lcdNumber_4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_16">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLCDNumber" name="lcdNumber_5">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>&amp;Bola</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>&amp;Restart</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="MyLCDNumber" name="lcdNumber_6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(114, 159, 207);</string>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>&amp;Sortir</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyLabel</class>
+   <extends>QLabel</extends>
+   <header>MyLabel.h</header>
+   <slots>
+    <signal>nl()</signal>
+    <signal>nr()</signal>
+    <signal>clean()</signal>
+    <slot>cami()</slot>
+    <slot>esborra()</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>MyLCDNumber</class>
+   <extends>QLCDNumber</extends>
+   <header>MyLCDNumber.h</header>
+   <slots>
+    <slot>suma()</slot>
+    <slot>reinicia()</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Galton</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>652</x>
+     <y>438</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>632</x>
+     <y>384</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>label</receiver>
+   <slot>cami()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>576</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>283</x>
+     <y>63</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>nl()</signal>
+   <receiver>label_2</receiver>
+   <slot>cami()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>234</x>
+     <y>90</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>198</x>
+     <y>173</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>nr()</signal>
+   <receiver>label_3</receiver>
+   <slot>cami()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>337</x>
+     <y>183</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_2</sender>
+   <signal>nl()</signal>
+   <receiver>label_4</receiver>
+   <slot>cami()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>219</x>
+     <y>191</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>206</x>
+     <y>240</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_2</sender>
+   <signal>nr()</signal>
+   <receiver>label_5</receiver>
+   <slot>cami()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>233</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>281</x>
+     <y>256</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_3</sender>
+   <signal>nl()</signal>
+   <receiver>label_5</receiver>
+   <slot>cami()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>335</x>
+     <y>185</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>281</x>
+     <y>229</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_3</sender>
+   <signal>nr()</signal>
+   <receiver>label_6</receiver>
+   <slot>cami()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>364</x>
+     <y>186</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>365</x>
+     <y>242</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_4</sender>
+   <signal>nl()</signal>
+   <receiver>label_7</receiver>
+   <slot>cami()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>205</x>
+     <y>276</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>82</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_4</sender>
+   <signal>nr()</signal>
+   <receiver>label_8</receiver>
+   <slot>cami()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>204</x>
+     <y>257</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>210</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_5</sender>
+   <signal>nr()</signal>
+   <receiver>label_9</receiver>
+   <slot>cami()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>285</x>
+     <y>281</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>334</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_5</sender>
+   <signal>nl()</signal>
+   <receiver>label_8</receiver>
+   <slot>cami()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>273</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>236</x>
+     <y>315</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_6</sender>
+   <signal>nl()</signal>
+   <receiver>label_9</receiver>
+   <slot>cami()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>357</x>
+     <y>269</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>333</x>
+     <y>317</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_6</sender>
+   <signal>nr()</signal>
+   <receiver>label_10</receiver>
+   <slot>cami()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>358</x>
+     <y>283</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>442</x>
+     <y>327</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_7</sender>
+   <signal>nl()</signal>
+   <receiver>lcdNumber</receiver>
+   <slot>suma()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>96</x>
+     <y>359</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>45</x>
+     <y>399</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_7</sender>
+   <signal>nr()</signal>
+   <receiver>lcdNumber_2</receiver>
+   <slot>suma()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>118</x>
+     <y>346</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>171</x>
+     <y>398</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_8</sender>
+   <signal>nl()</signal>
+   <receiver>lcdNumber_2</receiver>
+   <slot>suma()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>208</x>
+     <y>363</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>156</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_8</sender>
+   <signal>nr()</signal>
+   <receiver>lcdNumber_3</receiver>
+   <slot>suma()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>239</x>
+     <y>360</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>291</x>
+     <y>402</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_9</sender>
+   <signal>nl()</signal>
+   <receiver>lcdNumber_3</receiver>
+   <slot>suma()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>324</x>
+     <y>364</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>274</x>
+     <y>388</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_9</sender>
+   <signal>nr()</signal>
+   <receiver>lcdNumber_4</receiver>
+   <slot>suma()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>362</x>
+     <y>355</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>404</x>
+     <y>402</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_10</sender>
+   <signal>nl()</signal>
+   <receiver>lcdNumber_4</receiver>
+   <slot>suma()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>456</x>
+     <y>360</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>418</x>
+     <y>386</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_10</sender>
+   <signal>nr()</signal>
+   <receiver>lcdNumber_5</receiver>
+   <slot>suma()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>474</x>
+     <y>355</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>510</x>
+     <y>390</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber_6</receiver>
+   <slot>suma()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>638</x>
+     <y>24</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>636</x>
+     <y>93</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber</receiver>
+   <slot>reinicia()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>57</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>27</x>
+     <y>390</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber_2</receiver>
+   <slot>reinicia()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>625</x>
+     <y>52</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>143</x>
+     <y>403</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber_3</receiver>
+   <slot>reinicia()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>46</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>291</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber_4</receiver>
+   <slot>reinicia()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>613</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>390</x>
+     <y>400</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber_5</receiver>
+   <slot>reinicia()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>636</x>
+     <y>57</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>526</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber_6</receiver>
+   <slot>reinicia()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>609</x>
+     <y>58</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>599</x>
+     <y>90</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>clean()</signal>
+   <receiver>label_2</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>83</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>237</x>
+     <y>147</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>clean()</signal>
+   <receiver>label_3</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>294</x>
+     <y>104</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>323</x>
+     <y>170</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>clean()</signal>
+   <receiver>label_4</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>204</x>
+     <y>260</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>clean()</signal>
+   <receiver>label_5</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>279</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>285</x>
+     <y>258</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>label_10</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>630</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>477</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>label_9</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>628</x>
+     <y>57</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>341</x>
+     <y>333</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>label_8</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>627</x>
+     <y>52</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>222</x>
+     <y>329</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>label_7</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>625</x>
+     <y>59</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>112</x>
+     <y>313</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>label_6</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>624</x>
+     <y>49</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>240</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>label_5</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>56</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>280</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>label_4</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>650</x>
+     <y>53</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>212</x>
+     <y>251</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>label_3</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>640</x>
+     <y>54</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>354</x>
+     <y>160</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>label_2</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>600</x>
+     <y>55</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>229</x>
+     <y>154</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>label</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>581</x>
+     <y>58</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>88</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>clean()</signal>
+   <receiver>label_6</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>312</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>352</x>
+     <y>241</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>clean()</signal>
+   <receiver>label_7</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>255</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>101</x>
+     <y>316</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>clean()</signal>
+   <receiver>label_8</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>343</x>
+     <y>56</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>210</x>
+     <y>322</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>clean()</signal>
+   <receiver>label_9</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>324</x>
+     <y>69</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>332</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>clean()</signal>
+   <receiver>label_10</receiver>
+   <slot>esborra()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>109</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>461</x>
+     <y>332</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
